@@ -1,0 +1,61 @@
+site_name: Outback Robots Resource Hub
+site_url: https://outbackrobots.github.io/Outback-Robots-Hub/
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.indexes
+    - navigation.top
+    - toc.follow
+    - search.suggest
+    - search.highlight
+  palette:
+    - scheme: default
+      primary: green
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: green
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+  - search
+  - git-revision-date-localized:
+      enable_creation_date: false
+
+nav:
+  - Home: index.md
+  - Core Unit:
+      - Overview: units/core/index.md
+      - Lessons:
+          - Lesson template: _templates/lesson_template.md
+          - Lesson 1: units/core/lessons/lesson01.md
+  - Activities:
+      - Overview: activities/index.md
+      - Template: _templates/activity_template.md
+  - Glossary:
+      - Overview: glossary/index.md
+      - Template: _templates/keyterm_template.md
+  - Help & Quick Fixes: help/index.md
+  - Changelog: changelog.md
+
