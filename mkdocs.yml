@@ -61,14 +61,14 @@ nav:
   - Lessons:
       - Overview: units/core/index.md
       - Template: _templates/lesson_template.md
-      - Lesson 1: units/core/lessons/lesson01/lesson01.md
-      - Lesson 2: units/core/lessons/lesson02/lesson02.md
-      - Lesson 3: units/core/lessons/lesson03/lesson03.md
-      - Lesson 4: units/core/lessons/lesson04/lesson04.md
-      - Lesson 5: units/core/lessons/lesson05/lesson05.md
-      - Lesson 6: units/core/lessons/lesson06/lesson06.md
-      - Lesson 7: units/core/lessons/lesson07/lesson07.md
-      - Lesson 8: units/core/lessons/lesson08/lesson08.md
+      - Lesson 1: units/core/lessons/lesson01/index.md
+      - Lesson 2: units/core/lessons/lesson02/index.md
+      - Lesson 3: units/core/lessons/lesson03/index.md
+      - Lesson 4: units/core/lessons/lesson04/index.md
+      - Lesson 5: units/core/lessons/lesson05/index.md
+      - Lesson 6: units/core/lessons/lesson06/index.md
+      - Lesson 7: units/core/lessons/lesson07/index.md
+      - Lesson 8: units/core/lessons/lesson08/index.md
   - Activities:
       - Overview: activities/index.md
       - Template: _templates/activity_template.md
