@@ -1,7 +1,12 @@
 # Changelog
-All notable changes to this project will be documented in this file.
+**All notable changes to this project will be documented in this file.**
 
-## v0.0 [Unreleased]
+## v0.1
+### 2026-02-02
+- A workflow has been set up to automatically deploy changes to the [resource hub website](https://outbackrobots.github.io/Outback-Robots-Hub/) when changes are pushed to the main branch.
+- Created template files for everything that can be duplicated to add units, lessons, activities, glossary terms
+
+## v0.0
 ### 2026-02-02
 - initial hub structure created:
     docs/
@@ -15,4 +20,3 @@ All notable changes to this project will be documented in this file.
         _templates/
         topics.md
         changelog.md
-- Created template files for everything that can be duplicated to add units, lessons, activities, glossary terms

@@ -4,11 +4,21 @@ site_url: https://outbackrobots.github.io/Outback-Robots-Hub/
 theme:
   name: material
   language: en
+  logo: assets/logo.png
+  favicon: assets/favicon.png
+  extra_css:
+    - assets/custom.css
   features:
     - navigation.instant
-    - navigation.tracking
-    - navigation.indexes
-    - navigation.top
+    - navigation.tracking # track scroll position
+    - navigation.path # highlight current section in navigation
+    - navigation.indexes # show index pages in navigation
+    - navigation.sections # show section headers in navigation
+    - navigation.prune # only show navigation items with content
+    - navigation.top # add "top" link to navigation
+    - navigation.tabs
+    - navigation.tabs.sticky # keep tabs visible when scrolling
+    - header.autohide # hide header on scroll down, show on scroll up
     - toc.follow
     - search.suggest
     - search.highlight
@@ -30,6 +40,8 @@ markdown_extensions:
   - admonition
   - attr_list
   - md_in_html
+  - pymdownx.blocks.caption
+
   - toc:
       permalink: true
   - pymdownx.details
@@ -42,14 +54,21 @@ plugins:
   - search
   - git-revision-date-localized:
       enable_creation_date: false
+  - macros
 
 nav:
   - Home: index.md
-  - Core Unit:
+  - Lessons:
       - Overview: units/core/index.md
-      - Lessons:
-          - Lesson template: _templates/lesson_template.md
-          - Lesson 1: units/core/lessons/lesson01.md
+      - Template: _templates/lesson_template.md
+      - Lesson 1: units/core/lessons/lesson01/lesson01.md
+      - Lesson 2: units/core/lessons/lesson02/lesson02.md
+      - Lesson 3: units/core/lessons/lesson03/lesson03.md
+      - Lesson 4: units/core/lessons/lesson04/lesson04.md
+      - Lesson 5: units/core/lessons/lesson05/lesson05.md
+      - Lesson 6: units/core/lessons/lesson06/lesson06.md
+      - Lesson 7: units/core/lessons/lesson07/lesson07.md
+      - Lesson 8: units/core/lessons/lesson08/lesson08.md
   - Activities:
       - Overview: activities/index.md
       - Template: _templates/activity_template.md

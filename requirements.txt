@@ -1,2 +1,4 @@
 mkdocs-material
 mkdocs-git-revision-date-localized-plugin
+click==8.2.1
+mkdocs-macros-plugin
