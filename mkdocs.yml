@@ -55,12 +55,13 @@ plugins:
   - git-revision-date-localized:
       enable_creation_date: false
   - macros
+  - mkdocs-pdf
 
 nav:
   - Home: index.md
   - Lessons:
       - Overview: units/core/index.md
-      - Template: _templates/lesson_template.md
+      - Template: units/core/lessons/_lesson_template/new_lesson_template.md
       - Lesson 1: units/core/lessons/lesson01/index.md
       - Lesson 2: units/core/lessons/lesson02/index.md
       - Lesson 3: units/core/lessons/lesson03/index.md
@@ -69,12 +70,13 @@ nav:
       - Lesson 6: units/core/lessons/lesson06/index.md
       - Lesson 7: units/core/lessons/lesson07/index.md
       - Lesson 8: units/core/lessons/lesson08/index.md
-  - Activities:
-      - Overview: activities/index.md
-      - Template: _templates/activity_template.md
-  - Glossary:
-      - Overview: glossary/index.md
-      - Template: _templates/keyterm_template.md
-  - Help & Quick Fixes: help/index.md
-  - Changelog: changelog.md
+  - Blossom: blossom/index.md
+#  - Activities:
+#      - Overview: activities/index.md
+#      - Template: _templates/activity_template.md
+#  - Glossary:
+#      - Overview: glossary/index.md
+#      - Template: _templates/keyterm_template.md
+#  - Help & Quick Fixes: help/index.md
+#  - Changelog: changelog.md
 

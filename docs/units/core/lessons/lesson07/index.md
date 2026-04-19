@@ -5,67 +5,109 @@ lesson_id: 00_name
 lesson_no: 00
 lesson_title: name
 year_level: [5, 6]
-duration_min: 75
+duration_min: 90
+lesson_summary: One-sentence lesson summary.
 classroom_setup_and_delivery_considerations: []
 robot_use:          # building|interaction
 internet_required:  # yes|no|optional
 devices:          # per_student|pair|group
 core_concepts: []
 curriculum_links: []
-other_learning_objectives: []
-success_criteria: []
-assessment_methods: []
+learning_objectives: 
+  - Add learning objectives in front matter under learning_objectives as a list.
+success_criteria: 
+  - Add success criteria in front matter under success_criteria as a list.
+slides:
+  - title: Lesson 1 slides - Meet Blossom (PPTX)
+    url: ../../../../assets/slides/OutbackRobots_Lesson1_Slides_MeetBlossom.pptx
+  - title: Lesson 1 slides - Meet Blossom (PDF)
+    url: ../../../../assets/slides/OutbackRobots_Lesson1_Slides_MeetBlossom.pdf
+build_videos: 
+  - title: Building Blossom's Head - Video
+    url: ../../../../../assets/videos/Lesson01_BlossomHead.mp4
+worksheets: 
+  - title: Encode a Mystery Word in Binary - Worksheet (PDF)
+    url: ../../../../assets/worksheets/lesson02_worksheet_EncodeAMysteryWordInBinary.pdf
+  - title: Encode a Mystery Word in Binary - Worksheet (DOCX)
+    url: ../../../../assets/worksheets/lesson02_worksheet_EncodeAMysteryWordInBinary.docx
+other_materials: []
 activities: []
 tags: []
 status: draft
 version: v0.1
 ---
-# Not worked on yet
-# Lesson {{ page.meta.lesson_no }} – {{ page.meta.lesson_title }}
 
-*{One-sentence lesson summary.}*
+# Lesson {{ page.meta.lesson_no }} - {{ page.meta.lesson_title }}
+
+*{{ page.meta.lesson_summary }}*
 
 !!! tip "At a glance"
     - :material-kangaroo: **Unit:** {{ page.meta.unit_id }}
     - :material-clock-outline: **Duration:** {{ page.meta.duration_min }} min
-    - :material-laptop: **Devices:** {{ page.meta.devices }}
-    - :material-wifi: **Internet:** {{ page.meta.internet_required }}
     - :material-robot: **Robot use:** {{ page.meta.robot_use }}
 
+
+## Download resources
+
+### Slides
+{% if page.meta.slides %}
+{% for item in page.meta.slides %}
+- [{{ item.title }}]({{ item.url }})
+{% endfor %}
+{% else %}
+Add slide links in front matter under slides as title + url.
+{% endif %}
+
+![Lesson1 slides - Meet Blossom](../../../../assets/slides/OutbackRobots_Lesson1_Slides_MeetBlossom.pdf){ type=application/pdf style="min-height:50vh;width:80%"}
+
+### Build videos
+{% if page.meta.build_videos %}
+{% for item in page.meta.build_videos %}
+- [{{ item.title }}]({{ item.url }})
+{% endfor %}
+{% else %}
+Add build video links in front matter under build_videos as title + url.
+{% endif %}
+
+<video controls>
+  <source src="../../../../../assets/videos/Lesson01_BlossomHead.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+### Worksheets
+{% if page.meta.worksheets %}
+{% for item in page.meta.worksheets %}
+- [{{ item.title }}]({{ item.url }})
+{% endfor %}
+{% else %}
+This lesson has no worksheets.
+{% endif %}
+
+
+
+--- 
 ## Lesson overview
 (Where does it fit in the unit and why is it here?)
 (What teachers need to know to teach this lesson)
 
-## Core concepts
-!!! box " "
-    - Link to glossary items
-(Link to glossary items as you create them)
-
-## Lesson Plan
+### Lesson Plan
 (High-level structure with timings)
 
-### Classroom Setup & Delivery Considerations
-(Devices, grouping, rotations, logins, blocked sites, setup/pack-down, accessibility)
+### Learning objectives
+"I can..." statements to assess whether students have met the learning objectives
+{% if page.meta.learning_objectives %}
+{% for obj in page.meta.learning_objectives %}
+- {{ obj }}
+{% endfor %}
+{% else %}
+- Add learning objectives in front matter under learning_objectives as a list.
+{% endif %}
 
-### Activities in this lesson
-(Link to activity pages; later we can auto-embed snippets)
-
-## Learning objectives
-(Students will be able to…)
-
-### Curriculum links (v9.0)
-(Map objectives to curriculum codes)
-
-## Success criteria
-(Observable “I can…” statements)
-
-### Evidence of learning
-(How you know students met the success criteria)
-
-## Resources and materials
-(Slides, docs, handouts, videos)
-
-### Help & Quick Fixes for this lesson
-(Link to relevant help pages)
-
-## Version notes
+### Evidence of learning (success criteria)
+{% if page.meta.success_criteria %}
+{% for criteria in page.meta.success_criteria %}
+- {{ criteria }}
+{% endfor %}
+{% else %}
+- Add success criteria in front matter under success_criteria as a list.
+{% endif %}
