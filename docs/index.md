@@ -8,7 +8,7 @@ The Outback Robots Teaching Hub is an educational resource platform that has bee
 ### About the Team
 The Outback Robots Teaching Hub and all its content is developed and maintained by researchers at the HAVIC Lab for Human, Artificial + Virtual Interactive Cognition at [Flinders University](https://www.flinders.edu.au/). 
 Our mission is to provide high-quality educational resources that can improve access to high-quality AI and STEM education in rural and remote primary schools.
-For more information about our team and our projects, please visit the [HAVIC Lab website](https://www.flinders.edu.au/havic-lab).
+For more information about our team and our projects, please visit the [HAVIC Lab website](https://www.haviclab.com).
 
 ### Funding Acknowledgement
 This research project is supported by the [Montebello Foundation](https://www.montebellofoundation.com.au/).

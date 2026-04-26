@@ -23,13 +23,13 @@ slides:
   - title: Lesson 1 slides - Meet Blossom (PDF)
     url: ../../../../assets/slides/OutbackRobots_Lesson1_Slides_MeetBlossom.pdf
 build_videos: 
-  - title: Building Blossom's Head - Video
-    url: ../../../../assets/videos/Lesson01_BlossomHead.mp4
+  - title: Blossom Robot - Build Intro Video
+    watch_url: https://www.youtube.com/watch?v=Ft6NktYBkC8
+    embed_url: https://www.youtube.com/embed/Ft6NktYBkC8?si=dU5wlr09IT3pmTL8
+  - title: Lesson 1 - Building Blossom's Head
+    watch_url: https://www.youtube.com/watch?v=9al16FPzlDQ
+    embed_url: https://www.youtube.com/embed/9al16FPzlDQ?si=9e8n7MphZRxDVZ1U
 worksheets: 
-  - title: Encode a Mystery Word in Binary - Worksheet (PDF)
-    url: ../../../../assets/worksheets/lesson02_worksheet_EncodeAMysteryWordInBinary.pdf
-  - title: Encode a Mystery Word in Binary - Worksheet (DOCX)
-    url: ../../../../assets/worksheets/lesson02_worksheet_EncodeAMysteryWordInBinary.docx
 other_materials: []
 activities: []
 tags: []
@@ -45,9 +45,42 @@ version: v0.1
     - :material-robot: **Robot use:** {{ page.meta.robot_use }}
 
 
+## Download resources
+
+### Slides
+{% if page.meta.slides %}
+{% for item in page.meta.slides %}
+- [{{ item.title }}]({{ item.url }})
+{% endfor %}
+{% else %}
+Add slide links in front matter under slides as title + url.
+{% endif %}
+
+![Lesson1 slides - Meet Blossom](../../../../assets/slides/OutbackRobots_Lesson1_Slides_MeetBlossom.pdf){ type=application/pdf style="min-height:50vh;width:80%"}
+
+### Worksheets
+{% if page.meta.worksheets %}
+{% for item in page.meta.worksheets %}
+- [{{ item.title }}]({{ item.url }})
+{% endfor %}
+{% else %}
+This lesson has no worksheets.
+{% endif %}
+
+### Build videos
+
+[Blossom Robot - Build Intro Video - Watch on YouTube](https://www.youtube.com/watch?v=Ft6NktYBkC8)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ft6NktYBkC8?si=dU5wlr09IT3pmTL8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+[Lesson 1 - Building Blossom's Head - Watch on YouTube](https://www.youtube.com/watch?v=9al16FPzlDQ)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9al16FPzlDQ?si=hI6fS9HYSiz1NMcf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+---
+
 ## Lesson overview
-(Where does it fit in the unit and why is it here?)
-(What teachers need to know to teach this lesson)
 
 ### Lesson Plan
   1. Introduce Blossom - 5 min
@@ -64,7 +97,6 @@ version: v0.1
   6. Questionnaire - 5 min
   7. Lesson summary - 5 min  
 
-  **Total:** XX min (+ 15 min extension)
 
 ### Learning objectives
 After this lesson, students will be able to  
@@ -81,42 +113,4 @@ After this lesson, students will be able to
   - I can identify the main components that robots require to function.
   - I can describe what the functions of the motors, computer and wires inside a robot are, and recognize them among the pieces of Blossom.
   - I can discuss when robots should or shouldn’t be used by giving 2-3 example scenarios and give reasons on why using robots would be helpful or harmful in this context.
-
----
-
-## Download resources
-
-### Slides
-{% if page.meta.slides %}
-{% for item in page.meta.slides %}
-- [{{ item.title }}]({{ item.url }})
-{% endfor %}
-{% else %}
-Add slide links in front matter under slides as title + url.
-{% endif %}
-
-![Lesson1 slides - Meet Blossom](../../../../assets/slides/OutbackRobots_Lesson1_Slides_MeetBlossom.pdf){ type=application/pdf style="min-height:50vh;width:80%"}
-
-### Build videos
-{% if page.meta.build_videos %}
-{% for item in page.meta.build_videos %}
-- [{{ item.title }}]({{ item.url }})
-{% endfor %}
-{% else %}
-Add build video links in front matter under build_videos as title + url.
-{% endif %}
-
-<video controls>
-  <source src="../../../../assets/videos/Lesson01_BlossomHead.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
-### Worksheets
-{% if page.meta.worksheets %}
-{% for item in page.meta.worksheets %}
-- [{{ item.title }}]({{ item.url }})
-{% endfor %}
-{% else %}
-This lesson has no worksheets.
-{% endif %}
 

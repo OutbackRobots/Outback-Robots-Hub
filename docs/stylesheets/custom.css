@@ -1,0 +1,14 @@
+/* =========================
+   Outback Robots custom CSS
+   ========================= */
+/* Increase logo size only */
+.md-header__button.md-logo {
+  margin: 0;
+  padding: 0;
+}
+
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  height: 3.5rem;
+  width: auto;
+}

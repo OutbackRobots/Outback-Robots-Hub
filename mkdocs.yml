@@ -6,8 +6,6 @@ theme:
   language: en
   logo: assets/logo.png
   favicon: assets/favicon.png
-  extra_css:
-    - assets/custom.css
   features:
     - navigation.instant
     - navigation.tracking # track scroll position
@@ -36,6 +34,9 @@ theme:
         icon: material/weather-sunny
         name: Switch to light mode
 
+extra_css:
+  - stylesheets/custom.css
+
 markdown_extensions:
   - admonition
   - attr_list
@@ -61,7 +62,6 @@ nav:
   - Home: index.md
   - Lessons:
       - Overview: units/core/index.md
-      - Template: units/core/lessons/_lesson_template/new_lesson_template.md
       - Lesson 1: units/core/lessons/lesson01/index.md
       - Lesson 2: units/core/lessons/lesson02/index.md
       - Lesson 3: units/core/lessons/lesson03/index.md

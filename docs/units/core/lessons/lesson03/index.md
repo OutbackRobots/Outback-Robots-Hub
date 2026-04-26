@@ -1,15 +1,15 @@
 ---
 type: lesson
 unit_id: core
-lesson_id: 00_name
-lesson_no: 00
-lesson_title: name
+lesson_id: 03_coding
+lesson_no: 03
+lesson_title: Coding Blossom
 year_level: [5, 6]
 duration_min: 90
-lesson_summary: One-sentence lesson summary.
+lesson_summary: In the third lesson, students learn the basics of coding by creating a simple guessing game in Scratch.
 classroom_setup_and_delivery_considerations: []
-robot_use:          # building|interaction
-internet_required:  # yes|no|optional
+robot_use: building         # building|interaction
+internet_required: no # yes|no|optional
 devices:          # per_student|pair|group
 core_concepts: []
 curriculum_links: []
@@ -18,18 +18,12 @@ learning_objectives:
 success_criteria: 
   - Add success criteria in front matter under success_criteria as a list.
 slides:
-  - title: Lesson 1 slides - Meet Blossom (PPTX)
-    url: ../../../../assets/slides/OutbackRobots_Lesson1_Slides_MeetBlossom.pptx
-  - title: Lesson 1 slides - Meet Blossom (PDF)
-    url: ../../../../assets/slides/OutbackRobots_Lesson1_Slides_MeetBlossom.pdf
+  - title: Lesson 3 slides - Coding Blossom (PPTX)
+    url: ../../../../assets/slides/OutbackRobots_Lesson3_Slides_CodingBlossom.pptx
+  - title: Lesson 3 slides - Coding Blossom (PDF)
+    url: ../../../../assets/slides/OutbackRobots_Lesson3_Slides_CodingBlossom.pdf
 build_videos: 
-  - title: Building Blossom's Head - Video
-    url: ../../../../../assets/videos/Lesson01_BlossomHead.mp4
 worksheets: 
-  - title: Encode a Mystery Word in Binary - Worksheet (PDF)
-    url: ../../../../assets/worksheets/lesson02_worksheet_EncodeAMysteryWordInBinary.pdf
-  - title: Encode a Mystery Word in Binary - Worksheet (DOCX)
-    url: ../../../../assets/worksheets/lesson02_worksheet_EncodeAMysteryWordInBinary.docx
 other_materials: []
 activities: []
 tags: []
@@ -39,10 +33,8 @@ version: v0.1
 
 # Lesson {{ page.meta.lesson_no }} - {{ page.meta.lesson_title }}
 
-*{{ page.meta.lesson_summary }}*
-
 !!! tip "At a glance"
-    - :material-kangaroo: **Unit:** {{ page.meta.unit_id }}
+    - :material-kangaroo: **Summary:** {{ page.meta.lesson_summary }}
     - :material-clock-outline: **Duration:** {{ page.meta.duration_min }} min
     - :material-robot: **Robot use:** {{ page.meta.robot_use }}
 
@@ -58,21 +50,7 @@ version: v0.1
 Add slide links in front matter under slides as title + url.
 {% endif %}
 
-![Lesson1 slides - Meet Blossom](../../../../assets/slides/OutbackRobots_Lesson1_Slides_MeetBlossom.pdf){ type=application/pdf style="min-height:50vh;width:80%"}
-
-### Build videos
-{% if page.meta.build_videos %}
-{% for item in page.meta.build_videos %}
-- [{{ item.title }}]({{ item.url }})
-{% endfor %}
-{% else %}
-Add build video links in front matter under build_videos as title + url.
-{% endif %}
-
-<video controls>
-  <source src="../../../../../assets/videos/Lesson01_BlossomHead.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+![Lesson3 slides - Coding Blossom](../../../../assets/slides/OutbackRobots_Lesson3_Slides_CodingBlossom.pdf){ type=application/pdf style="min-height:50vh;width:80%"}
 
 ### Worksheets
 {% if page.meta.worksheets %}
@@ -83,31 +61,45 @@ Add build video links in front matter under build_videos as title + url.
 This lesson has no worksheets.
 {% endif %}
 
+### Build videos
+
+This lesson has no build videos.
 
 
---- 
+---
+
 ## Lesson overview
-(Where does it fit in the unit and why is it here?)
-(What teachers need to know to teach this lesson)
 
 ### Lesson Plan
-(High-level structure with timings)
+  1. Lesson 2 Recap - 5 min​
+  2. What is coding – 10 min​
+    - 2.1 Introduction​
+    - 2.2 Play the guessing game with friends​
+  3. Code the game in Scratch – 40 min​
+    - 3.1 If-else statements​
+    - 3.2 Loops​
+    - 3.3 Create your own blocks​
+    - 3.4 Code the game​
+  4. Building Blossom’s base - 25 min​
+  5. Why coding discussion - optional​
+  6. Survey - 5 min​
+  7. Summary - 5 min​
+
 
 ### Learning objectives
-"I can..." statements to assess whether students have met the learning objectives
-{% if page.meta.learning_objectives %}
-{% for obj in page.meta.learning_objectives %}
-- {{ obj }}
-{% endfor %}
-{% else %}
-- Add learning objectives in front matter under learning_objectives as a list.
-{% endif %}
+After this lesson, students will be able to  
+
+  - explain what coding is and why/where it is important to know,​
+  - design algorithms involving multiple alternatives (branching) and iteration​, 
+  - implement algorithms using visual programming, involving control structures (such as “if/then”)​.
 
 ### Evidence of learning (success criteria)
-{% if page.meta.success_criteria %}
-{% for criteria in page.meta.success_criteria %}
-- {{ criteria }}
-{% endfor %}
-{% else %}
-- Add success criteria in front matter under success_criteria as a list.
-{% endif %}
+  - I can explain what coding is and why it is important.​
+  - I can design an algorithm with different outcomes and repeated steps.​
+  - I can use IF statements to control what happens in my program.​
+  - I can use loops to repeat actions in my code.​
+  - I can create and use my own custom blocks with meaningful names.​
+  - I can use variables to store information (like a random number) in Scratch.​
+  - I can explain how robots use sensors, code, and motors to respond to their environment.​
+  - I can describe how computers use binary (0s and 1s) to communicate information.​
+
