@@ -23,9 +23,12 @@ slides:
   - title: Lesson 2 slides - Sensing the World (PDF)
     url: ../../../../assets/slides/OutbackRobots_Lesson2_Slides_SensingTheWorld.pdf
 build_videos: 
-  - title: Lesson 2 - Building Blossom's Spine
-    watch_url: https://www.youtube.com/watch?v=Rs1Ef0Qb2fA
-    embed_url: https://www.youtube.com/embed/Rs1Ef0Qb2fA?si=mSLJ4aLQNyX5s7mu
+  - title: Blossom Robot - Build Intro Video
+    watch_url: https://www.youtube.com/watch?v=Ft6NktYBkC8
+    embed_url: https://www.youtube.com/embed/Ft6NktYBkC8?si=dU5wlr09IT3pmTL8
+  - title: Lesson 2 - Building Blossom's Head
+    watch_url: https://www.youtube.com/watch?v=9al16FPzlDQ
+    embed_url: https://www.youtube.com/embed/9al16FPzlDQ?si=9e8n7MphZRxDVZ1U
 worksheets: 
   - title: Encode a Mystery Word in Binary - Worksheet (PDF)
     url: ../../../../assets/worksheets/lesson02_worksheet_EncodeAMysteryWordInBinary.pdf
@@ -70,9 +73,13 @@ This lesson has no worksheets.
 
 ### Build videos
 
-[Lesson 2 - Building Blossom's Spine - Watch on YouTube](https://www.youtube.com/watch?v=Rs1Ef0Qb2fA)
+[Blossom Robot - Build Intro Video - Watch on YouTube](https://www.youtube.com/watch?v=Ft6NktYBkC8)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Rs1Ef0Qb2fA?si=mSLJ4aLQNyX5s7mu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ft6NktYBkC8?si=dU5wlr09IT3pmTL8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+[Lesson 2 - Building Blossom's Head - Watch on YouTube](https://www.youtube.com/watch?v=9al16FPzlDQ)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9al16FPzlDQ?si=9e8n7MphZRxDVZ1U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 ---

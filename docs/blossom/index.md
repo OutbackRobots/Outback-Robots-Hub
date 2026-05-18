@@ -19,10 +19,10 @@ To support the building of Blossom, we have also created build videos for each l
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ft6NktYBkC8?si=dU5wlr09IT3pmTL8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-- [Lesson 1 - Building Blossom's Head - Watch on YouTube](https://www.youtube.com/watch?v=9al16FPzlDQ)
+- [Lesson 2 - Building Blossom's Head - Watch on YouTube](https://www.youtube.com/watch?v=9al16FPzlDQ)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9al16FPzlDQ?si=hI6fS9HYSiz1NMcf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-- [Lesson 2 - Building Blossom's Spine - Watch on YouTube](https://www.youtube.com/watch?v=Rs1Ef0Qb2fA)
+- [Lesson 3 - Building Blossom's Spine - Watch on YouTube](https://www.youtube.com/watch?v=Rs1Ef0Qb2fA)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Rs1Ef0Qb2fA?si=mSLJ4aLQNyX5s7mu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

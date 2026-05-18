@@ -23,8 +23,13 @@ slides:
   - title: Lesson 3 slides - Coding Blossom (PDF)
     url: ../../../../assets/slides/OutbackRobots_Lesson3_Slides_CodingBlossom.pdf
 build_videos: 
+  - title: Lesson 3 - Building Blossom's Spine
+    watch_url: https://www.youtube.com/watch?v=Rs1Ef0Qb2fA
+    embed_url: https://www.youtube.com/embed/Rs1Ef0Qb2fA?si=mSLJ4aLQNyX5s7mu
 worksheets: 
-other_materials: []
+other_materials: 
+  - title: Lesson 3 - Coding Blossom (Scratch Project)
+    url: ../../../../assets/other/Lesson03_ScratchCode_BlossomGame.sb3
 activities: []
 tags: []
 status: draft
@@ -63,8 +68,26 @@ This lesson has no worksheets.
 
 ### Build videos
 
-This lesson has no build videos.
+[Lesson 3 - Building Blossom's Spine - Watch on YouTube](https://www.youtube.com/watch?v=Rs1Ef0Qb2fA)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Rs1Ef0Qb2fA?si=mSLJ4aLQNyX5s7mu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+### Scratch project
+
+1. Download the Scratch starter project:
+  [Lesson 3 - Coding Blossom (Scratch Project)](../../../../assets/other/Lesson03_ScratchCode_BlossomGame.sb3)
+
+2. Open Scratch at
+  [www.scratch.mit.edu](https://scratch.mit.edu/projects/editor/)
+
+3. Click:
+   File → Load from your computer
+
+4. Select the downloaded file.
+
+#### Blossom sprites
+You should not need the image files as they are already included in the Scratch project, but here they are if needed:
+[Blossom sprites (ZIP)](../../../../assets/other/Lesson03_BlossomGame_Sprites.zip)
 
 ---
 

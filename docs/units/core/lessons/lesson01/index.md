@@ -23,12 +23,6 @@ slides:
   - title: Lesson 1 slides - Meet Blossom (PDF)
     url: ../../../../assets/slides/OutbackRobots_Lesson1_Slides_MeetBlossom.pdf
 build_videos: 
-  - title: Blossom Robot - Build Intro Video
-    watch_url: https://www.youtube.com/watch?v=Ft6NktYBkC8
-    embed_url: https://www.youtube.com/embed/Ft6NktYBkC8?si=dU5wlr09IT3pmTL8
-  - title: Lesson 1 - Building Blossom's Head
-    watch_url: https://www.youtube.com/watch?v=9al16FPzlDQ
-    embed_url: https://www.youtube.com/embed/9al16FPzlDQ?si=9e8n7MphZRxDVZ1U
 worksheets: 
 other_materials: []
 activities: []
@@ -69,13 +63,7 @@ This lesson has no worksheets.
 
 ### Build videos
 
-[Blossom Robot - Build Intro Video - Watch on YouTube](https://www.youtube.com/watch?v=Ft6NktYBkC8)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Ft6NktYBkC8?si=dU5wlr09IT3pmTL8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-[Lesson 1 - Building Blossom's Head - Watch on YouTube](https://www.youtube.com/watch?v=9al16FPzlDQ)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9al16FPzlDQ?si=hI6fS9HYSiz1NMcf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+This lesson has no build videos.
 
 
 ---
