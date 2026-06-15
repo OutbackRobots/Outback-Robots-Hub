@@ -57,6 +57,8 @@ plugins:
       enable_creation_date: false
   - macros
   - mkdocs-pdf
+  - git-revision-date-localized:
+      fallback_to_build_date: true
 
 nav:
   - Home: index.md
